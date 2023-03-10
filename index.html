@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <title>Practice localstorage</title>
+    <style></style>
+  </head>
+  <body>
+    <h1 class="text-center m-4 my-5">
+      You will store some informations in window localstorage property (Inside Browser)
+    </h1>
+    <nav class="navbar navbar-light bg-light d-flex flex-column align-items-center container container-fluid">
+      <div class="d-flex gap-3 align-items-center">
+        <h3>key:</h3>
+        <input id="first_input" class="form-control m-3" type="text" placeholder="Search" aria-label="Search" />
+      </div>
+      <div class="d-flex gap-3 align-items-center">
+        <h3>value:</h3>
+        <input id="sceond_input" class="form-control m-3" type="text" placeholder="Search" aria-label="Search" />
+      </div>
+      <button id="l_btn" onclick="simple()" type="button" class="btn btn-secondary btn-lg m-lg-3">Enter</button>
+      <button id="x_btn" onclick="refresh()" type="button" class="btn btn-danger btn-lg mt-3">Refresh</button>
+    </nav>
+
+    <div class="d-flex align-items-center justify-content-center my-5">
+      <h2>
+        <ul id="ul"></ul>
+      </h2>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
